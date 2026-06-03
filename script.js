@@ -18,7 +18,11 @@ async function setLanguage(lang) {
   document.getElementById("nav-notes").textContent = common.nav.notes;
 
   document.getElementById("page-title").textContent = content.title;
-  document.getElementById("page-content").innerHTML = content.body;
+  const body = Array.isArray(content.body)
+    ? content.body.join("\n")
+    : content.body ?? "";
+
+  document.getElementById("page-content").innerHTML = body;
 
   localStorage.setItem("language", lang);
 }
