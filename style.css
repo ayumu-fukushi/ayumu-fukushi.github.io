@@ -1,18 +1,56 @@
 body {
+  margin: 0;
   font-family: sans-serif;
-  margin: 40px;
   line-height: 1.8;
+  color: #222;
+  background-color: #ffffff;
+}
+
+.topbar {
+  background-color: #eeeeee;
+  border-bottom: 1px solid #cccccc;
+  padding: 16px 40px;
+}
+
+.site-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.nav-menu {
+  margin-bottom: 12px;
+}
+
+.nav-menu a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+}
+
+.nav-menu a:hover {
+  text-decoration: underline;
 }
 
 .language-buttons button {
   width: 90px;
-  height: 36px;
-  margin-right: 10px;
+  height: 34px;
+  margin-right: 8px;
   cursor: pointer;
 }
 
-button {
-  padding: 8px 16px;
-  margin-right: 8px;
-  cursor: pointer;
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 24px;
+}
+
+section {
+  margin-bottom: 56px;
+}
+
+h1, h2 {
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 6px;
 }
