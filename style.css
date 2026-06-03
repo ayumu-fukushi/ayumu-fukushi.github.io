@@ -194,3 +194,26 @@ img {
     padding-left: 22px;
   }
 }
+
+.profile-box {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.profile-photo {
+  width: 180px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 600px) {
+  .profile-box {
+    flex-direction: column;
+  }
+
+  .profile-photo {
+    width: 160px;
+  }
+}
