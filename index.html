@@ -8,8 +8,15 @@
 <body data-page="home">
 
   <header class="topbar">
-    <div class="site-title" id="site-title"></div>
-
+    <div class="header-main">
+      <div class="site-title" id="site-title"></div>
+  
+      <div class="language-buttons">
+        <button onclick="setLanguage('ja')">日本語</button>
+        <button onclick="setLanguage('en')">English</button>
+      </div>
+    </div>
+  
     <nav class="nav-menu">
       <a href="index.html" id="nav-home"></a>
       <a href="cv.html" id="nav-cv"></a>
@@ -17,11 +24,6 @@
       <a href="talks.html" id="nav-talks"></a>
       <a href="notes.html" id="nav-notes"></a>
     </nav>
-
-    <div class="language-buttons">
-      <button onclick="setLanguage('ja')">日本語</button>
-      <button onclick="setLanguage('en')">English</button>
-    </div>
   </header>
 
   <main>
