@@ -2,11 +2,37 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>私のホームページ</title>
-  <link rel="stylesheet" href="style.css">
+  <title>My Homepage</title>
 </head>
 <body>
-  <h1>こんにちは</h1>
-  <p>これは私のホームページです。</p>
+
+  <div>
+    <button onclick="setLanguage('ja')">日本語</button>
+    <button onclick="setLanguage('en')">English</button>
+  </div>
+
+  <h1 id="title">こんにちは</h1>
+  <p id="intro">これは私のホームページです。</p>
+
+  <script>
+    const texts = {
+      ja: {
+        title: "こんにちは",
+        intro: "これは私のホームページです。"
+      },
+      en: {
+        title: "Hello",
+        intro: "This is my homepage."
+      }
+    };
+
+    function setLanguage(lang) {
+      document.getElementById("title").textContent = texts[lang].title;
+      document.getElementById("intro").textContent = texts[lang].intro;
+
+      document.documentElement.lang = lang;
+    }
+  </script>
+
 </body>
 </html>
