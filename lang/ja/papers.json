@@ -1,4 +1,10 @@
 {
     "title": "論文",
-    "body":  "Ayumu Fukushi, Yoshinori Nakanishi-Ohno, Takeru Matsuda. (2026). Flatness of location-scale-shape models under the Wasserstein metric. <em>Information Geometry</em>. DOI：10.1007/s41884-026-00206-6"
+    "body":  [
+    "<ul>",
+    "<li>Flatness of location-scale-shape models under the Wasserstein metric.</li> ",
+    "<p>Ayumu Fukushi, Yoshinori Nakanishi-Ohno, Takeru Matsuda.  </p>",
+    "<p><em>Information Geometry</em>, accepted.</p>",
+    "</ul>"
+  ]""
 }
