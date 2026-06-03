@@ -209,11 +209,28 @@ img {
 }
 
 @media screen and (max-width: 600px) {
-  .profile-box {
-    flex-direction: column;
+  body {
+    font-size: 14px;
+    line-height: 1.75;
   }
 
-  .profile-photo {
-    width: 160px;
+  .site-title {
+    font-size: 20px;
+  }
+
+  .nav-menu {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .language-buttons button {
+    font-size: 13px;
   }
 }
