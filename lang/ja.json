@@ -1,5 +1,42 @@
 {
-  "title": "福士 歩 (Ayumu Fukushi)",
-  "intro": "建設中",
-  "profile": "情報幾何"
+  "siteTitle": "福士 歩 (Ayumu Fukushi)",
+
+  "nav": {
+    "home": "ホーム",
+    "cv": "経歴",
+    "papers": "論文",
+    "talks": "発表",
+    "notes": "ノート"
+  },
+
+  "home": {
+    "title": "ホーム",
+    "text": "建設中"
+  },
+
+  "cv": {
+    "title": "所属・経歴",
+    "text": "東京大学情報理工学系研究科数理情報学専攻修士課程・理研CBS統計数理連携ユニット"
+  },
+
+  "papers": {
+    "title": "論文",
+    "items": [
+      "Ayumu Fukushi, Yoshinori Nakanishi-Ohno, Takeru Matsuda. (2026). Flatness of location-scale-shape models under the Wasserstein metric. Information Geometry. DOI：10.1007/s41884-026-00206-6"
+    ]
+  },
+
+  "talks": {
+    "title": "発表",
+    "items": [
+      "ひみつ"
+    ]
+  },
+
+  "notes": {
+    "title": "ノート",
+    "items": [
+      "情報幾何"
+    ]
+  }
 }
