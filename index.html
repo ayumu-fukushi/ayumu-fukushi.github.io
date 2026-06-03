@@ -2,20 +2,20 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>My Homepage</title>
+  <title>Ayumu Fukushi</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body data-page="home">
 
   <header class="topbar">
     <div class="site-title" id="site-title"></div>
 
     <nav class="nav-menu">
-      <a href="#home" id="nav-home"></a>
-      <a href="#cv" id="nav-cv"></a>
-      <a href="#papers" id="nav-papers"></a>
-      <a href="#talks" id="nav-talks"></a>
-      <a href="#notes" id="nav-notes"></a>
+      <a href="index.html" id="nav-home"></a>
+      <a href="cv.html" id="nav-cv"></a>
+      <a href="papers.html" id="nav-papers"></a>
+      <a href="talks.html" id="nav-talks"></a>
+      <a href="notes.html" id="nav-notes"></a>
     </nav>
 
     <div class="language-buttons">
@@ -25,30 +25,8 @@
   </header>
 
   <main>
-    <section id="home">
-      <h1 id="home-title"></h1>
-      <p id="home-text"></p>
-    </section>
-
-    <section id="cv">
-      <h2 id="cv-title"></h2>
-      <p id="cv-text"></p>
-    </section>
-
-    <section id="papers">
-      <h2 id="papers-title"></h2>
-      <ul id="papers-list"></ul>
-    </section>
-
-    <section id="talks">
-      <h2 id="talks-title"></h2>
-      <ul id="talks-list"></ul>
-    </section>
-
-    <section id="notes">
-      <h2 id="notes-title"></h2>
-      <ul id="notes-list"></ul>
-    </section>
+    <h1 id="page-title"></h1>
+    <div id="page-content"></div>
   </main>
 
   <script src="script.js"></script>
