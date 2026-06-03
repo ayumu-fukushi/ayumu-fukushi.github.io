@@ -4,8 +4,11 @@ body {
   line-height: 1.8;
 }
 
-.language-buttons {
-  margin-bottom: 30px;
+.language-buttons button {
+  width: 90px;
+  height: 36px;
+  margin-right: 10px;
+  cursor: pointer;
 }
 
 button {
