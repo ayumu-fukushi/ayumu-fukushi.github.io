@@ -233,4 +233,12 @@ img {
   .language-buttons button {
     font-size: 13px;
   }
+  .profile-box {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .profile-photo {
+    width: 160px;
+  }
 }
