@@ -1,4 +1,27 @@
 {
-    "title": "発表",
-    "body": "ひみつ"
+  "title": "発表",
+  "body": [
+    "<h2>学術論文（査読有り）</h2>",
+    "<ol>",
+    "<li>Ayumu Fukushi, Yoshinori Nakanishi-Ohno, Takeru Matsuda. (2026). <strong>Flatness of location-scale-shape models under the Wasserstein metric.</strong><br><em>Information Geometry</em>, accepted. DOI: <a href='https://doi.org/10.1007/s41884-026-00206-6'>10.1007/s41884-026-00206-6</a></li>",
+    "</ol>",
+
+    "<h2>口頭発表（査読無し）</h2>",
+    "<ol start='2'>",
+    "<li>福士歩. <strong>Dually flatness of Wasserstein exponential families in the Wasserstein metric and exponential connection.</strong><br>幾何学的統計学集会. 2025年9月. <a href='https://www2.itc.kansai-u.ac.jp/~tshoda/ASO2025_program.pdf'>Program PDF</a></li>",
+    "<li>福士歩，中西（大野）義典，松田岳留. <strong>location-scale-shape モデルの Wasserstein 計量のもとでの平坦性.</strong><br>統計関連学会連合大会コンペティションセッション. 関西大学, 2025年9月. <a href='https://pub.confit.atlas.jp/ja/event/jfssa2025/session/3H07-12'>Website</a></li>",
+    "</ol>",
+
+    "<h2>ポスター発表（査読無し）</h2>",
+    "<ol start='4'>",
+    "<li>福士歩. <strong>Wasserstein 統計における擬指数型分布族の双対平坦性と統計的有効性.</strong><br>統計サマーセミナー 2025. 2025年8月. <a href='https://sites.google.com/g.ecc.u-tokyo.ac.jp/ss2025/'>Website</a><br>注：HP のプログラムに記載の発表題目は上記と異なる。</li>",
+    "<li>Ayumu Fukushi, Takeru Matsuda. <strong>Graph Curvature in Latent Space Network Model and Its Applications.</strong><br>RIKEN CBS RETREAT 2025. 2025年11月.</li>",
+    "<li>福士歩，松田岳留. <strong>一般化した Cramér–Rao 型下界の達成.</strong><br>第20回日本統計学会春季集会. 同志社大学, 2026年3月.</li>",
+    "</ol>",
+
+    "<h2>受賞</h2>",
+    "<ol start='7'>",
+    "<li><strong>第20回日本統計学会春季集会ポスターセッション学生優秀発表賞.</strong><br>2026年3月. <a href='https://www.toukei-kentei.jp/news/convention2026'>Website</a></li>",
+    "</ol>"
+  ]
 }
