@@ -2,11 +2,13 @@
     "title": "経歴",
     "body": [
     "<h2>経歴</h2>",
+    "<ul>",
     "<li>2014年3月</li>",
     "<p>豊洲小学校卒業</p>",
-    "</ol>",
+    "</ul>",
 
     "<h2>受賞</h2>",
+    "<ul>",
     "<li><strong>第20回日本統計学会春季集会ポスターセッション学生優秀発表賞.</strong><br>2026年3月. <a href='https://www.toukei-kentei.jp/news/convention2026'>Website</a></li>",
     "</ol>"
   ]
